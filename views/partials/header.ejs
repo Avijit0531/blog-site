@@ -1,0 +1,40 @@
+<header class="header">
+    <a href="/" class="header__logo">Daily Blogs</a>
+    <nav class="header__nav">
+        <ul>
+            <li>
+                <a href="/" class="<%= isActiveRoute('/',currentRoute) %>">Home</a>
+            </li>
+            <li>
+                <a href="/about" class="<%= isActiveRoute('/about',currentRoute) %>">About</a>
+            </li>
+            <li>
+                <a href="/contact" class="<%= isActiveRoute('/contact',currentRoute) %>">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header__button">
+        <button class="searchBtn" aria-expanded="false">
+            Search 
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="12.000000pt" height="12.000000pt" viewBox="0 0 64.000000 64.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata>
+<g transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M174 627 c-179 -68 -231 -289 -101 -425 66 -69 178 -99 262 -70 l40
+14 76 -73 c87 -83 120 -93 164 -48 45 44 35 77 -48 164 l-73 76 14 40 c18 51
+11 139 -16 191 -59 114 -204 174 -318 131z m151 -38 c25 -7 58 -29 86 -58 92
+-91 92 -211 0 -302 -91 -92 -211 -92 -302 0 -90 89 -92 207 -6 298 63 66 135
+86 222 62z"/>
+<path d="M193 530 c-17 -10 -37 -28 -42 -39 -18 -33 -13 -108 10 -154 31 -62
+82 -126 99 -126 17 0 68 64 99 126 25 51 28 129 5 161 -36 52 -115 67 -171 32z"/>
+</g>
+</svg>
+
+        </button>
+    </div>
+
+</header>
